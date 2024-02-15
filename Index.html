@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mack B</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Display full screen */
+            background-color: black; /* This will make the background black */
+            margin: 0; /* Remove default margin */
+        }
+
+        .letterbox {
+            position: relative; /* Position the letterbox container */
+            width: 100%; /* Take up full width */
+            height: 100%; /* Take up full height */
+        }
+
+        h1 {
+            position: absolute; /* Position the h1 element */
+            top: 50%; /* Position it vertically in the middle */
+            left: 80%; /* Offset it to the right */
+            transform: translate(-50%, -50%); /* Center it precisely */
+            font-family: 'Quicksand', sans-serif;
+            text-transform: uppercase;
+            font-weight: lighter;
+            opacity: 1; /* Show the h1 element */
+            color: white; /* Set the text color to white */
+            z-index: 1; /* Place it above the embedded content */
+        }
+
+        @keyframes fade-in {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="letterbox">
+        <h1>Click through for portfolio page</h1>
+        <script id="asp-embed-script" data-zindex="1000000" type="module" type="text/javascript" charset="utf-8" src="https://new.express.adobe.com/webpage/static/embed/embed.js"></script>
+        <a class="asp-embed-link" href="https://new.express.adobe.com/webpage/1vSLnyz6MQPCE/" target="_blank">
+            <img src="https://new.express.adobe.com/webpage/1vSLnyz6MQPCE/resources?asset_id=rendition&buster=1707771325496" alt="Untitled - February 10, 2024 at 09.03.07" style="width:100%" border="0" />
+        </a>
+    </div>
+</body>
+</html>
